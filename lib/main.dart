@@ -29,12 +29,11 @@ class MyApp extends StatelessWidget {
             child: Column(
               children: [
                 Container(
-                  padding: EdgeInsets.all(15),
-                  margin: EdgeInsets.only(
-                      top: 50, bottom: 50, left: 150, right: 150),
+                  padding: EdgeInsets.all(30),
+                  margin: EdgeInsets.only(top: 50, left: 100, right: 100),
                   decoration: BoxDecoration(
                     border: Border.all(color: customColor),
-                    borderRadius: BorderRadius.circular(30),
+                    borderRadius: BorderRadius.circular(20),
                   ),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -44,8 +43,8 @@ class MyApp extends StatelessWidget {
                         children: [
                           Text('Math:',
                               style: TextStyle(
-                                  fontSize: 10, fontWeight: FontWeight.bold)),
-                          Text('A', style: TextStyle(fontSize: 10)),
+                                  fontSize: 15, fontWeight: FontWeight.bold)),
+                          Text('A', style: TextStyle(fontSize: 15)),
                         ],
                       ),
                       SizedBox(height: 10),
@@ -54,8 +53,8 @@ class MyApp extends StatelessWidget {
                         children: [
                           Text('Physics:',
                               style: TextStyle(
-                                  fontSize: 10, fontWeight: FontWeight.bold)),
-                          Text('B', style: TextStyle(fontSize: 10)),
+                                  fontSize: 15, fontWeight: FontWeight.bold)),
+                          Text('B', style: TextStyle(fontSize: 15)),
                         ],
                       ),
                       SizedBox(height: 10),
@@ -64,8 +63,8 @@ class MyApp extends StatelessWidget {
                         children: [
                           Text('Chemistry:',
                               style: TextStyle(
-                                  fontSize: 10, fontWeight: FontWeight.bold)),
-                          Text('C', style: TextStyle(fontSize: 10)),
+                                  fontSize: 15, fontWeight: FontWeight.bold)),
+                          Text('C', style: TextStyle(fontSize: 15)),
                         ],
                       ),
                       SizedBox(height: 10),
@@ -93,8 +92,8 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  padding: EdgeInsets.symmetric(vertical: 14),
-                  margin: EdgeInsets.only(top: 150, left: 200, right: 200),
+                  padding: EdgeInsets.symmetric(vertical: 20),
+                  margin: EdgeInsets.only(top: 100, left: 100, right: 100),
                   decoration: BoxDecoration(
                     color: customColor,
                     borderRadius: BorderRadius.circular(20),
